@@ -1,0 +1,109 @@
+body {
+    background-color:  hsl(0, 0%, 100%);
+    font-size:  15px;
+    display:flex;
+    margin:100px;
+    font-family: League Spartan;
+    background-image: url("bg-pattern-top-desktop.svg");
+    flex-direction: column;
+}
+.titulo {
+    color: hsl(300, 43%, 22%)
+}
+.subtitulo {
+    color:   hsl(303, 10%, 53%)
+}
+
+.checked {
+    color: orange;
+  }
+
+.quadrado2, .quadrado3, .quadrado1 {
+    background-color: hsl(300, 43%, 22%);
+    margin:2%;
+    border-radius:8px;
+    padding: 20px;
+    width: 200px;
+    height: 140px;
+    
+}
+
+.quadrado2 {
+    margin-top: 50px;
+
+}
+
+.quadrado3 {
+    margin-top: 100px;
+}
+
+.nome1, .nome2, .nome3{
+    color: hsl(0, 0%, 100%);
+}
+
+.verify1, .verify2, .verify3 {
+   color: hsl(333, 80%, 67%);
+}
+
+.minitexto1, .minitexto2, .minitexto3 {
+    color: hsl(300, 24%, 96%);
+    margin-top: 10%;
+}
+
+.notas {
+    color:hsl(300, 43%, 22%);
+}
+
+.nota1 {
+    margin: 20px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 25px;
+    width: 320px;
+    padding: 10px;
+
+}
+
+.nota2 {
+    margin-top: 25px;
+    margin-left: 45px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 25px;
+    width: 320px;
+    padding: 10px;
+}
+
+.nota3 {
+    margin: 30px;
+    margin-left: 60px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 25px;
+    width: 320px;
+    padding: 10px;
+}
+
+.quadrados {
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    display:flex;
+}
+
+img{
+    width: 15%;
+    border-radius: 25px;
+}
+
+.texto-cima {
+    display: flex;
+}
+
+.perfil1, .perfil2, .perfil3 {
+    display: flex;
+}
+
+.secao1, .secao2, .secao3 {
+    flex-direction: column;
+    margin-left: 3%;
+}
